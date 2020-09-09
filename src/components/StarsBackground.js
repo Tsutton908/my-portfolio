@@ -73,7 +73,7 @@ function StarsBackground() {
                         transform: `translateY(${offset * 0.7}px)`
                     }}
                 />
-                <h1 id="banner-text1">Hello! I'm Thomas Button</h1>
+                <h1 id="banner-text1">Hello! I'm William Sutton</h1>
                 <h2 id="banner-text2">But Please, Call me Thomas</h2>
                 <img src={layer6} 
                     className="layer" 
