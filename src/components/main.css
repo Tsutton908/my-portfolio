@@ -52,7 +52,7 @@ body {
 
 .socials {
     opacity: 0;
-    transition: 0.3s ease;
+    transition: 0.1s ease;
 }
 
 .socials.active {
