@@ -1,0 +1,22 @@
+.section {
+    background: linear-gradient(#b9bbbd, #a9aaab); /*#313c4d*/
+    max-height: 800px;
+    overflow: hidden;
+}
+
+.section-1 #about-me {
+    background: linear-gradient(#b9bbbd, #a9aaab); /*#313c4d*/
+    min-height:700px;
+    max-height: 800px;
+    overflow: hidden;
+}
+
+.section-2 {
+    background: linear-gradient(#b9bbbd, #a9aaab); /*#313c4d*/
+    min-height: 400px;
+}
+
+.contact {
+    background: transparent;
+    min-height: 500px;
+}

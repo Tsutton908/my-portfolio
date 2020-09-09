@@ -1,0 +1,78 @@
+.contact h1 {
+    color: #f07902;
+    font-size: 50px;        
+    position: relative;
+    top: 150px;
+    left: 0px;
+    text-align:center;
+}
+
+.contact #box {
+    margin-left: -87.5px;
+    position: relative;
+    width: 175px;
+    top: 150px;
+    left: 50%;
+    align-items: center;
+}
+
+.contact h2 {
+    display: block;
+    position: relative;
+    font-size: 30px;
+    color: white;
+    left: -28%;
+    top: 40vh;
+    text-align: center;
+}
+
+.contact h3 {
+    display: block;
+    color: #04c1c8;
+    position: relative;
+    font-size: 20px;
+    text-align: center;
+    top: 27vh;
+}
+
+textarea {
+    margin: 0px 470px 5px 0px; 
+    height: 150px; 
+    width: 612px;
+}
+
+.contact .form-name,.form-email,textarea{
+    background: #1e242c;
+    border: 0;
+    box-sizing: border-box;
+    color: #fff;
+    display: block;
+    font-size: 14pt;
+    margin-bottom: 3px;
+    outline: none;
+    padding: 10px 15px;
+    width: 32%;
+    position: relative;
+    right: -63%;
+    top: 8vh; 
+}
+
+.submit-button {
+    background: transparent;
+    border: 3px solid #fff;
+    color: #fff;
+    position: relative;
+    right: -75%;
+    top: 11vh;
+    font-size: 12pt;
+    margin: 5px 0 0 0;
+    outline: 0;
+    padding: 10px 30px;
+    transition: 0.3s;
+}
+
+.submit-button:hover {
+    transform: scale(1.2);
+    background: #04c1c8;
+    border: none;
+}

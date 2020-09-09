@@ -1,0 +1,65 @@
+.main-header {
+    transition:1s;       /* come back to. page doesn't have enough content at the moment to properly test*/
+    background-color: #111; /*#313c4d*/
+    padding: 5px 12px;
+    width: 100%;
+    border-bottom: 2px solid #ebb00e;/* #0abdc9*/;
+    position: sticky;
+    top: 0px;  /*745px*/
+    z-index: 4;
+  }
+  
+  .main-nav__item {
+    display: inline-block;
+    margin: 0 16px;
+  }
+  
+  .main-nav__items a {
+    text-align: center;
+    color: #f0f0f0;
+    font-weight: bold;
+    font-size: 27px;
+    display: inline-block;
+    margin: 0 16px;
+  }
+
+  .main-nav__items a:hover {
+    color: #f5a038;
+  }
+
+  .main-nav__items > .active {
+      color: #f5a038;
+  }
+  
+  .main-nav {
+    display:inline-block;
+    text-align: center;
+    width: 100%;
+  }
+  
+  .main-nav__item a {
+    color: #f0f0f0;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 22px;
+  }
+  
+  .main-nav__item a:hover,
+  .main-nav__item a:active {
+    color: #f5a038;
+  }
+
+  .main-header.active {
+    transition: .3s;       /* come back to. page doesn't have enough content at the moment to properly test*/
+    background-color: #2d3642; /*#313c4d*/
+    padding: 15px 12px;
+    width: 100;
+    border-bottom: 3px solid #ebb00e;/* #0abdc9*/;
+    position: fixed;
+    top: 0px;  /*745px*/
+    z-index: 4;
+  }
+
+  .nav-text.active{
+      font-size: 26px;
+  }
