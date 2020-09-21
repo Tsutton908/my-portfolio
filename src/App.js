@@ -19,7 +19,7 @@ function App() {
     window.addEventListener('scroll', changeSocials);
 
         return (
-            <body>
+            <div>
                 <StarsBackground />
                 <NavBar />
                 <ContentSection />
@@ -28,7 +28,7 @@ function App() {
                     <a href="https://www.linkedin.com/in/william-sutton-85572b1ab/" target="_blank" rel="noopener noreferrer"><i className="fab fa-linkedin"></i></a>
                     <div className="side-box-active"></div>
                 </div>
-            </body>
+            </div>
         );
     
 }
