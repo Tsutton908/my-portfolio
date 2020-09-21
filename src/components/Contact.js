@@ -3,7 +3,7 @@ import emailjs from 'emailjs-com';
 import './contact.css';
 
 function Contact() {
-    const sendEmail(e) {
+    function sendEmail(e) {
         e.preventDefault();
 
         emailjs.sendForm('portfolio-Email', 'template_0qfyhi6', e.target, 'user_fu8KGLxv3PPLGNCtWQj4O')   
