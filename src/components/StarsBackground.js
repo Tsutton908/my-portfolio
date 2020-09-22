@@ -101,8 +101,18 @@ function StarsBackground() {
                         />
                     )}
                 </ProgressiveImage>
-                <h1 id="banner-text1">Hello! I'm William Sutton</h1>
-                <h2 id="banner-text2">But Please, Call me Thomas</h2>
+                <h1 
+                    id="banner-text1"
+                    style={{
+                        opacity: `${1-offset/200}` 
+                    }}
+                >Hello! I'm William Sutton</h1>
+                <h2 
+                    id="banner-text2"
+                    style={{
+                        opacity: `${1-offset/200}` 
+                    }}
+                >But Please, Call me Thomas</h2>
                 <ProgressiveImage delay={1000} src={layer6} placeholder={layer6Tiny}>
                     {(src) => (
                         <img src={src} 

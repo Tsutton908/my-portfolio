@@ -28,7 +28,7 @@ section:before {
     color: White;
     position: absolute;
     top: 175px;
-    left: 300px;
+    left: 20%; /* 300px  20%*/
 }
 
 #banner-text2 {
@@ -36,7 +36,7 @@ section:before {
     color: White;
     position: absolute;
     top: 275px;
-    left: 700px;
+    right: 25%; /* left: 700px*/
 }
 
 /*
@@ -73,4 +73,42 @@ section img {
     height: 100vh;
     object-fit: contain;
 } */
+
+@media only screen and (min-width: 1440px) {
+    #banner-text1 {
+        font-size: 50px;
+        color: White;
+        position: absolute;
+        top: 175px;
+        left: 20%; /* 300px  20%*/
+    }
+    
+    #banner-text2 {
+        font-size: 50px;
+        color: White;
+        position: absolute;
+        top: 275px;
+        right: 25%; /* left: 700px*/
+    }
+}
+
+/*
+@media only screen and (min-width: 1080px or max-width: 1440px) {
+    #banner-text1 {
+        font-size: 50px;
+        color: White;
+        position: absolute;
+        top: 175px;
+        left: 20%; /* 300px  20%*
+    }
+    
+    #banner-text2 {
+        font-size: 50px;
+        color: White;
+        position: absolute;
+        top: 275px;
+        right: 25%; /* left: 700px*
+    }
+}
+*/
 
