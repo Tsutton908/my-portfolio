@@ -17,12 +17,12 @@ const layer3 = "/images/layer-4.png";
 const layer4 = "/images/layer-3.PNG";
 const layer5 = "/images/layer-2.PNG";
 const layer6 = "/images/layer-1.png";
-const layer1Tiny = "/images/layer-6-tiny.png";
-const layer2Tiny = "/images/layer-5-tiny.png";
-const layer3Tiny = "/images/layer-4-tiny.png";
-const layer4Tiny = "/images/layer-3-tiny.PNG";
-const layer5Tiny = "/images/layer-2-tiny.PNG";
-const layer6Tiny = "/images/layer-1-tiny.png";
+const layer1Tiny = "/images/layer-6-tiny-test.png";
+const layer2Tiny = "/images/layer-5-tiny-test.png";
+const layer3Tiny = "/images/layer-4-tiny-test.png";
+const layer4Tiny = "/images/layer-3-tiny-test.PNG";
+const layer5Tiny = "/images/layer-2-tiny-test.PNG";
+const layer6Tiny = "/images/layer-1-tiny-test.png";
 
  
 
