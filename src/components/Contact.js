@@ -3,6 +3,7 @@ import emailjs from 'emailjs-com';
 import './contact.css';
 
 function Contact() {
+        // Used EmaeilJs.com to relay information from form to send me an email.
     function sendEmail(e) {
         e.preventDefault();
 

@@ -1,18 +1,23 @@
 import React from 'react';
 import Buttons from './Button';
+import resume from '../images/William_Sutton_Resume().pdf';
 import './resume.css';
 
 function Resume() {
     return (
         <div id="resume">
-            <div className="resume-button-position">
+            <a
+                className="resume-button-position" 
+                href={resume}
+                download="Sutton_Portfolio.pdf" 
+            >
             <Buttons 
                 onClick={() => console.log('clicked')} 
                 type="button"
                 buttonStyle="btn--primary--outline"
                 buttonSize="btn--medium"
             />
-            </div>
+            </a>
             <div id="transition"></div>
         </div>
         
