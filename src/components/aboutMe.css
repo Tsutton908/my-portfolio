@@ -844,4 +844,121 @@ h1 {
         left: -200px;
         top: -120px;
     }
+} 
+
+@media only screen and (max-width: 375px) {
+    h1 {
+        color: #f07902;
+        font-size: 40px;
+        position: relative;
+        top: 230px;
+        /*left: 480px;*/
+        left: 35%; /*265px*/
+    }
+    
+    .text {
+        position: relative;
+        width: 200px;
+        top: 390px;
+        left: 180px;
+        font-size: 14px;
+        color: #fffefc;
+    }
+    
+    .text ul {
+        position: relative;
+        width: 400px;
+        margin: 0 auto;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    
+    #box {
+        background: #f07902;
+        width:150px;
+        height: 6px;
+        position: relative;
+        top: 225px;
+        /*left: 500px;*/
+        left: 37%; /*285*/
+    }
+
+    #profile-picture {
+        margin: 0px;
+        padding: 0px;
+        background-image: url("/images/profile-picture-1.png");
+        background-size: cover;
+        height: 120px;
+        width: 120px;
+        position: relative;
+        top: -300px; /* -475px */
+        left: 75px; /* 175px */
+    }
+
+    #icon1 {
+        background-image: url("/images/icon-1.png");
+        background-size: cover;
+        height: 30px;
+        width: 30px;
+        position: relative;
+        top: -340px;
+        left: 60px;
+    }
+    
+    #icon2 {
+        background-image: url("/images/icon-2-atom.png");
+        background-size: cover;
+        height: 30px;
+        width: 30px;
+        position: relative;
+        top: -335px;
+        left: 123px;
+    }
+    
+    #icon3 {
+        background-image: url("/images/icon-3.png");
+        background-size: cover;
+        height: 30px;
+        width: 30px;
+        position: relative;
+        top: -400px;
+        left: 183px;
+    }
+    
+    #icon1-text {
+        position: relative;
+        top: -405px;
+        left: 40px;
+        font-size: 13px;
+        width: 10%;
+        margin: 0;
+        padding: 0;
+    }
+    
+    #icon2-text {
+        position: relative;
+        top: -385px;
+        left: 112px;
+        font-size: 13px;
+    }
+    
+    #icon3-text {
+        position: relative;
+        top: -435px;
+        left: 175px;
+        font-size: 13px;
+        width: 10%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .text ul {
+        position: relative;
+        width: 160px;
+        margin: 0;
+        padding: 10px;
+        box-sizing: border-box;
+        left: -155px;
+        top: -240px;
+    }
 }

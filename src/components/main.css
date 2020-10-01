@@ -58,3 +58,35 @@ body {
     opacity: 1;
     transition: 1s ease;
 }
+
+@media only screen and (max-width: 375px) {
+    .side-box-active {
+        position: fixed;
+        width: 3px;
+        height: 200px;
+        bottom: 0px;
+        left: 3%;
+        background-color: #dbdbdb;
+        opacity: 0.7
+    }
+    
+    .fa-linkedin {
+        position: fixed;
+        align-items: center;
+        transform: scale(2);
+        bottom: 225px;
+        left: 2.75%;
+        color: #dbdbdb;
+        opacity: 0.7;
+    }
+    
+    .fa-github-square {
+        position: fixed;
+        align-items: center;
+        transform: scale(2);
+        bottom: 265px;
+        left: 2.75%;
+        color: #dbdbdb;
+        opacity: 0.7;
+    }
+}
