@@ -7,7 +7,7 @@
     -ms-transform: rotate(120deg);
     -o-transform: rotate(120deg);
     -webkit-transform: rotate(120deg);
-    margin: 200px auto;
+    margin: 10px;
     overflow: hidden;
     visibility: hidden;
 }
@@ -27,7 +27,7 @@
 .hexagon-image {
     width: 100%;
     height: 100%;
-    background-image: url('../images/pig-game.JPG');
+    /*background-image: url('../images/pig-game.JPG');*/
     background-position: center;
     background-size: 100% 100%;
     transform: rotate(-60deg);
@@ -38,7 +38,33 @@
     visibility: visible;
 }
 
+/*
 .button-hover.active {
+    width: 100%;
+    height: 100%;
+    background:  #111;
+    opacity: 0.5;
+}
+*/
+.button-hover-1.active {
+    width: 100%;
+    height: 100%;
+    background:  #111;
+    opacity: 0.5;
+}
+.button-hover-2.active {
+    width: 100%;
+    height: 100%;
+    background:  #111;
+    opacity: 0.5;
+}
+.button-hover-3.active {
+    width: 100%;
+    height: 100%;
+    background:  #111;
+    opacity: 0.5;
+}
+.button-hover-4.active {
     width: 100%;
     height: 100%;
     background:  #111;

@@ -7,7 +7,9 @@ function NavBar() {
     const [navbar, setNavBar] = useState(false);
 
     const changeNavBar = () => {
-        if (window.scrollY >= 756) {
+        const height = window.innerHeight
+        //original scrollY >= 756
+        if (window.scrollY >= height) {
             setNavBar(true);
         } else {
             setNavBar(false);
