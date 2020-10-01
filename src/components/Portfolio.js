@@ -18,7 +18,8 @@ const Portfolio = () => {
             position: 'relative',
             top: '200px',
             margin: '10px auto'
-        }
+        },
+        link: 'https://pedantic-bell-71b506.netlify.app/'
     }
 
     const card2 = {
@@ -32,7 +33,8 @@ const Portfolio = () => {
             /*left: '940px'*/
             margin: '0 auto',
             left: '200px'
-        }
+        },
+        link: 'https://github.com/Tsutton908/stream-react-webapp'
     }
 
     const card3 = {
@@ -43,7 +45,8 @@ const Portfolio = () => {
             position: 'relative',
             top: '0px',
             margin: '10px auto'
-        }
+        },
+        link: 'https://github.com/Tsutton908/yt-app'
     }
 
     const card4 = {
@@ -67,16 +70,19 @@ const Portfolio = () => {
                 image={card1.hexagonImageProperties}
                 position={card1.hexagonPositionProperties}
                 id={1}
+                link={card1.link}
             />
             <HexagonButton 
                 image={card2.hexagonImageProperties}
                 position={card2.hexagonPositionProperties}
                 id={2}
+                link={card2.link}
             />
             <HexagonButton 
                 image={card3.hexagonImageProperties}
                 position={card3.hexagonPositionProperties}
                 id={3}
+                link={card3.link}
             />
             <HexagonButton 
                 image={card4.hexagonImageProperties}

@@ -32,7 +32,7 @@ const HexagonButton = (props) => {
     return (
         <div className="hexagon" style={position}>
             <div className="hexagon-inside">
-                <a href="https://github.com/Tsutton908">
+                <a href={props.link}>
                     <div className='hexagon-image' style={image}>
                         <div className={`button-hover-${props.id} ${buttonActive ? 'active' : ''}`}></div>
                     </div>

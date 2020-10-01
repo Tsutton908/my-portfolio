@@ -7,8 +7,9 @@
 body {
     margin: 0;
     padding: 0;
-    background: #2d3642; /*#313c4d*/
-    min-height: 3500px;
+    background:  #2d3642; /*#313c4d*/
+    /*min-height: 3500px;*/
+    height: 3700px;
     width: 100%;
     overflow-x: hidden;
     overflow-y: auto;
@@ -91,6 +92,10 @@ body {
     }
 
     .body {
+        width: 375px;
+    }
+
+    * {
         width: 375px;
     }
 }

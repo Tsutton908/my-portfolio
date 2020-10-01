@@ -22,7 +22,7 @@
     font-size: 30px;
     color: white;
     left: -28%;
-    top: 40vh;
+    top: 30vh;
     text-align: center;
 }
 
@@ -32,7 +32,7 @@
     position: relative;
     font-size: 20px;
     text-align: center;
-    top: 27vh;
+    top: 17vh;
 }
 
 textarea {
@@ -40,6 +40,7 @@ textarea {
     height: 150px; 
     width: 612px;
 }
+
 
 .contact .form-name,.form-email,textarea{
     background: #1e242c;
@@ -54,7 +55,7 @@ textarea {
     width: 32%;
     position: relative;
     right: -63%;
-    top: 8vh; 
+    top: 0vh; 
 }
 
 .submit-button {
@@ -63,7 +64,8 @@ textarea {
     color: #fff;
     position: relative;
     right: -75%;
-    top: 11vh;
+    top: 3px;
+    bottom: 2vh;
     font-size: 12pt;
     margin: 5px 0 0 0;
     outline: 0;
@@ -75,4 +77,8 @@ textarea {
     transform: scale(1.2);
     background: #04c1c8;
     border: none;
+}
+
+@media only screen and (max-width: 375px) {
+
 }
