@@ -1,0 +1,32 @@
+.section {
+  /* background: linear-gradient(#ffffff, #f3f3f3); /*#313c4d*/
+  background: #19191A;
+  /*max-height: 800px;*/
+  overflow: hidden;
+}
+
+.section-1 #about-me {
+  /* background: linear-gradient(#ffffff, #f3f3f3); /*#313c4d*/ 
+  background: #19191A;
+  min-height: 700px;
+  padding-bottom: 20px;
+  padding: 0 35px;
+}
+
+.section-1 #skills {
+  /* background: linear-gradient(#ffffff, #f3f3f3); /*#313c4d*/ 
+  background: #19191A;
+  min-height: 700px;
+  overflow:hidden;
+}
+
+.section-2 {
+  /*background: linear-gradient(#ffffff, #f3f3f3); /*#313c4d*/
+  background: #19191A;
+  min-height: 400px;
+}
+
+.contact {
+  background: transparent;
+  min-height: 500px;
+}

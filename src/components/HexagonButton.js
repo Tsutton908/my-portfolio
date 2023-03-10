@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import './hexagonButton.css';
+import '../styles/hexagonButton.css';
 
 const HexagonButton = (props) => {
     const [buttonActive, setbuttonActive] = useState(false);

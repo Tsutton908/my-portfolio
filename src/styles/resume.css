@@ -1,0 +1,53 @@
+.triangle {
+    background: red;
+    position: absolute;
+    z-index: 1000;
+}
+
+
+#transition {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("/images/transition-2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 30vh;
+    width: 100vw;
+    position: relative;
+    top: 312px;
+} 
+
+/*
+#transition {
+    position: relative;
+    height: 150px;
+    width: 150px;
+    background: red;
+} */
+
+#certifications {
+    padding-top: 20px;
+}
+  
+.certifications {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+}
+
+.certifications > h2 {
+    color: #616161;
+    margin: 0 20px;
+}
+
+.certifications > a {
+    color: #04c2c9;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .2s ease-in-out;
+}
+
+.certifications > a:hover {
+    color: #f5a038;
+}

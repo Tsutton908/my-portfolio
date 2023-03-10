@@ -1,0 +1,33 @@
+.projects-box {
+    min-height: 800px;
+    padding-top: 150px;
+}
+
+.projects-grid {
+    display: grid;
+    justify-items: center;
+    text-align: center;
+    grid-template-columns: auto;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+.projects-header {
+    color: #f07902;
+    font-size: 50px;
+    display: block;
+    /*position: relative;
+    top: 100px;
+    /*left: 45%; */
+    text-align: center;
+    left: 0;
+}
+
+.projects-box #box {
+    margin: 0 -75px;
+    position: relative;
+    top: 100px;
+    align-items: center;
+    left: 50%;
+}
+ 

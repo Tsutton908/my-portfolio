@@ -1,0 +1,22 @@
+0000000000000000000000000000000000000000 740c83d7aea29d06bcc202f6e3c7bfbd5522334e William Sutton <tsutton908@gmail.com> 1599682316 -0400	commit (initial): ready fro deployment
+740c83d7aea29d06bcc202f6e3c7bfbd5522334e 0000000000000000000000000000000000000000 William Sutton <tsutton908@gmail.com> 1599682362 -0400	Branch: renamed refs/heads/master to refs/heads/master
+740c83d7aea29d06bcc202f6e3c7bfbd5522334e 740c83d7aea29d06bcc202f6e3c7bfbd5522334e William Sutton <tsutton908@gmail.com> 1599682362 -0400	Branch: renamed refs/heads/master to refs/heads/master
+740c83d7aea29d06bcc202f6e3c7bfbd5522334e 4e9bb027efb336521bee05ff929a24b86e20d56e William Sutton <tsutton908@gmail.com> 1599682714 -0400	commit: change back to normal
+4e9bb027efb336521bee05ff929a24b86e20d56e 95765b2b14e8e7f582c298473562c5f027c76b34 William Sutton <tsutton908@gmail.com> 1599685575 -0400	commit: shortened time of ease out for socials
+95765b2b14e8e7f582c298473562c5f027c76b34 6722a13fd6a6bc6dbb19590a8ab7dade8f04aae5 William Sutton <tsutton908@gmail.com> 1599685684 -0400	commit: go trid of transform for socials returning up
+6722a13fd6a6bc6dbb19590a8ab7dade8f04aae5 11a5a7911eba35ad6c287aa1b2de329ac7e30208 William Sutton <tsutton908@gmail.com> 1600722495 -0400	commit: personal icon added
+11a5a7911eba35ad6c287aa1b2de329ac7e30208 35306b33c21efced954ea2eef0841bb4be8c9de7 William Sutton <tsutton908@gmail.com> 1600722872 -0400	commit: body update
+35306b33c21efced954ea2eef0841bb4be8c9de7 2736c6c4a10130c5d1b4ec4a0f989fb5b91b86ef William Sutton <tsutton908@gmail.com> 1600724738 -0400	commit: added email
+2736c6c4a10130c5d1b4ec4a0f989fb5b91b86ef c1cc8abaf0b8c65e6ef8611068e80bb7393f1a7b William Sutton <tsutton908@gmail.com> 1600724912 -0400	commit: email test 2
+c1cc8abaf0b8c65e6ef8611068e80bb7393f1a7b 336a79c1fe3dacea8e0254f1b1a51f1ecf569be8 William Sutton <tsutton908@gmail.com> 1600725141 -0400	commit: email
+336a79c1fe3dacea8e0254f1b1a51f1ecf569be8 0786b5286eae2f09411db38d8522c1b70ff56333 William Sutton <tsutton908@gmail.com> 1600799811 -0400	commit: resume button updated
+0786b5286eae2f09411db38d8522c1b70ff56333 8dac051dd14173e3b0bf4cf9bdd3600ea78ecb7d William Sutton <tsutton908@gmail.com> 1600806974 -0400	commit: fixed image lag
+8dac051dd14173e3b0bf4cf9bdd3600ea78ecb7d 70f07967209740aa2ede9436445bc64fde91b700 William Sutton <tsutton908@gmail.com> 1600807320 -0400	commit: images changed
+70f07967209740aa2ede9436445bc64fde91b700 9b00fdc61875302a86a4a3b6b4db7211d14a5aa5 William Sutton <tsutton908@gmail.com> 1600810392 -0400	commit: make responsive changes
+9b00fdc61875302a86a4a3b6b4db7211d14a5aa5 456a46f60e2c02feec2ee49dd34cf1420f636b3d William Sutton <tsutton908@gmail.com> 1601414214 -0400	commit: add hexagon project button functionality
+456a46f60e2c02feec2ee49dd34cf1420f636b3d 98fd0d811eca52b7f5ea0950d1cc8207f3f5ba23 William Sutton <tsutton908@gmail.com> 1601513216 -0400	commit: added buttons, and started responsivness
+98fd0d811eca52b7f5ea0950d1cc8207f3f5ba23 5b058173545c8b33b9d7f18432e12951f824f229 William Sutton <tsutton908@gmail.com> 1601587927 -0400	commit: modified about me responsiveness
+5b058173545c8b33b9d7f18432e12951f824f229 5db0531df667386fe946b549900a487c669e82ce William Sutton <tsutton908@gmail.com> 1601588931 -0400	commit: changed for medium to large mobile
+5db0531df667386fe946b549900a487c669e82ce a30ab4ccd462682bae60ae09ffbccb3f23bb3d62 William Sutton <tsutton908@gmail.com> 1601589178 -0400	commit: mobile bug
+a30ab4ccd462682bae60ae09ffbccb3f23bb3d62 e3c67a72cb81d72d5c6a428734e1b9a0fd3aeddc William Sutton <tsutton908@gmail.com> 1601589294 -0400	commit: bug fix attempt
+e3c67a72cb81d72d5c6a428734e1b9a0fd3aeddc 138a516b12f709206a424a53115b4e6382d84d57 William Sutton <tsutton908@gmail.com> 1601592424 -0400	commit: fixed bugs

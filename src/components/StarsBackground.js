@@ -8,20 +8,21 @@ import layer3 from "/images/layer-4.png";
 import layer4 from "/images/layer-3.png";
 import layer5 from "/images/layer-2.png";
 import layer6 from "/images/layer-1.png"; */ 
-import './starsStyle.css';
+import '../styles/starsStyle.css';
 
 
-const layer1 = "/images/layer-6.png";
-const layer2 = "/images/layer-5.png";
-const layer3 = "/images/layer-4.png";
-const layer4 = "/images/layer-3.PNG";
-const layer5 = "/images/layer-2.PNG";
-const layer6 = "/images/layer-1.png";
+const layer1 = "/images/stars.png";
+const layer2 = "/images/moon.png";
+const layer3 = "/images/mountain-main.png";
+const layer4 = "/images/bird-1.PNG";
+const layer7 = "/images/bird-2.png";
+const layer5 = "/images/mountains-middle.PNG";
+const layer6 = "/images/mountain-front.png";
 const layer1Tiny = "/images/layer-6-tiny-test.png";
 const layer2Tiny = "/images/layer-5-tiny-test.png";
 const layer3Tiny = "/images/layer-4-tiny-test.png";
-const layer4Tiny = "/images/layer-3-tiny-test.PNG";
-const layer5Tiny = "/images/layer-2-tiny-test.PNG";
+const layer4Tiny = "/images/layer-3-tiny-test.png";
+const layer5Tiny = "/images/layer-2-tiny-test.png";
 const layer6Tiny = "/images/layer-1-tiny-test.png";
 
  
@@ -43,7 +44,7 @@ function StarsBackground() {
 
     return (
             <section className="main" id="main">
-                <ProgressiveImage delay={1000} src={layer1} placeholder={layer1Tiny}>
+                <ProgressiveImage delay={1000} src={layer1} placeholder={layer1}>
                     {(src) => (
                         <img src={src} 
                         className="layer" 
@@ -55,20 +56,35 @@ function StarsBackground() {
                         />
                     )}
                 </ProgressiveImage>
-                <ProgressiveImage delay={1000} src={layer2} placeholder={layer2Tiny}>
+                <ProgressiveImage delay={1000} src={layer2} placeholder={layer2}>
                     {(src) => (
                     <img src={src} 
                         className="layer" 
                         alt="layer1" 
                         id="galaxy"
                         style={{
-                            filter: `blur(.5px)`,
-                            transform: `translateY(${offset * 0.6}px) scale(${offset/8000+1})`
+                            transform: `translateY(${offset * 0.4}px) translateX(${offset * 0.15}px)`
                         }}
                     />
                     )}
                 </ProgressiveImage>
-                <ProgressiveImage delay={1000} src={layer3} placeholder={layer3Tiny}>
+
+                <h1 
+                    id="banner-text1"
+                    style={{
+                        opacity: `${1-offset/200}`,
+                        transform: `translateX(-${offset * 0.85}px)` 
+                    }}
+                >Hello! I'm William Sutton</h1>
+                <h2 
+                    id="banner-text2"
+                    style={{
+                        opacity: `${1-offset/200}`,
+                        transform: `translateX(${offset * 0.85}px)`
+                    }}
+                >But Please, Call me Thomas</h2>
+                
+                <ProgressiveImage delay={1000} src={layer3} placeholder={layer3}>
                     {(src) => (
                         <img src={src} 
                             className="layer" 
@@ -79,7 +95,9 @@ function StarsBackground() {
                         />
                     )}
                 </ProgressiveImage>
-                <ProgressiveImage delay={1000} src={layer4} placeholder={layer4Tiny}>
+                {
+                    /*
+                    <ProgressiveImage delay={1000} src={layer4} placeholder={layer4Tiny}>
                     {(src) => (
                         <img src={src} 
                             className="layer" 
@@ -90,37 +108,54 @@ function StarsBackground() {
                         />
                     )}
                 </ProgressiveImage>
-                <ProgressiveImage delay={1000} src={layer5} placeholder={layer5Tiny}>
+                    */
+                }
+                <ProgressiveImage delay={1000} src={layer4} placeholder={layer4}>
                     {(src) => (
                         <img src={src} 
                             className="layer" 
                             alt="layer1" 
                             style={{
-                                transform: `translateY(${offset * 0.7}px)`
+                                top: '-10px',
+                                left: '-150px',
+                                transform: `translateY(${offset * 0.1}px) translateX(-${offset * 0.4}px)`
                             }}
                         />
                     )}
                 </ProgressiveImage>
-                <h1 
-                    id="banner-text1"
-                    style={{
-                        opacity: `${1-offset/200}` 
-                    }}
-                >Hello! I'm William Sutton</h1>
-                <h2 
-                    id="banner-text2"
-                    style={{
-                        opacity: `${1-offset/200}` 
-                    }}
-                >But Please, Call me Thomas</h2>
-                <ProgressiveImage delay={1000} src={layer6} placeholder={layer6Tiny}>
+                <ProgressiveImage delay={1000} src={layer7} placeholder={layer7}>
                     {(src) => (
                         <img src={src} 
                             className="layer" 
                             alt="layer1" 
-                            id="mountain" 
                             style={{
-                                transform: `scalex(${offset/8000+1})` 
+                                top: '-10px',
+                                left: '-150px',
+                                transform: `translateY(${offset * 0.1}px) translateX(${offset * 0.6}px)`
+                            }}
+                        />
+                    )}
+                </ProgressiveImage>
+                <ProgressiveImage delay={1000} src={layer5} placeholder={layer5}>
+                    {(src) => (
+                        <img src={src} 
+                            className="layer" 
+                            alt="layer1" 
+                            style={{
+                                transform: `translateY(${offset * 0.2}px) translateX(-${offset * 0.2}px)`
+                            }}
+                        />
+                    )}
+                </ProgressiveImage>
+                
+                <ProgressiveImage delay={1000} src={layer6} placeholder={layer6}>
+                    {(src) => (
+                        <img src={src} 
+                            className="layer" 
+                            alt="layer1" 
+                            id="mountain-front" 
+                            style={{
+                                transform: `scalex(${offset/8000+1}) translateX(${offset * 0.7}px)` 
                             }}
                         />
                     )}

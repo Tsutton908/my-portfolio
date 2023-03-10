@@ -1,6 +1,6 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
-import './contact.css';
+import '../styles/contact.css';
 
 function Contact() {
         // Used EmaeilJs.com to relay information from form to send me an email.
@@ -19,7 +19,6 @@ function Contact() {
     return (
         <div id="contact">
             <h1>Contact</h1>
-            <div id="box"></div>
             <h2>
                 Email: Tsutton908@gmail.com
                 <br />

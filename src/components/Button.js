@@ -1,6 +1,6 @@
 import React from 'react';
 import { useState, useEffect } from 'react';
-import './button.css';
+import '../styles/button.css';
 
 const styles = [
     "btn--primary--solid",

@@ -1,0 +1,82 @@
+.main-header {
+  transition: 1s; /* come back to. page doesn't have enough content at the moment to properly test*/
+  background-color: #102f3a; /*#313c4d*/
+  padding: 5px 12px;
+  width: 100%;
+  border-bottom: 4px solid #f5a038; /* #0abdc9  #ebb00e*/
+  position: sticky;
+  top: 0px; /*745px*/
+  z-index: 4;
+}
+
+.main-nav__items {
+  text-align: center;
+  color: #f0f0f0;
+  font-weight: bold;
+  font-size: 27px;
+  margin: 0 16px;
+}
+
+.main-nav__left {
+  display: box;
+  float: left;
+}
+
+.main-nav__left > a {
+  padding: 14px 20px;
+}
+
+.main-nav__right {
+  display: box;
+  float: right;
+  margin-right: 100px;
+  font-size: 30px;
+  color: #04c2c9;
+}
+
+.main-nav__right a:hover {
+  cursor: pointer;
+}
+
+.main-nav__left a:hover {
+  color: #f5a038;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.main-nav__left > .active {
+  color: #f5a038;
+}
+
+.main-nav {
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+.main-nav__item a {
+  color: #f0f0f0;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.main-nav__item a:hover,
+.main-nav__item a:active {
+  color: #f5a038;
+}
+
+.main-header.active {
+  transition: 0.3s; /* come back to. page doesn't have enough content at the moment to properly test*/
+  background-color: #2d3642; /*#313c4d*/
+  padding: 15px 12px;
+  width: 100;
+  border-bottom: 5px solid #f5a038; /* #0abdc9 #f5a038 #ebb00e*/
+  position: fixed;
+  top: 0px; /*745px*/
+  z-index: 4;
+}
+
+.nav-text.active {
+  font-size: 26px;
+}

@@ -1,7 +1,7 @@
 import React from 'react';
 import Buttons from './Button';
-import resume from '../images/William_Sutton_Resume().pdf';
-import './resume.css';
+import resume from '../images/Web_Resume_FullStack.pdf';
+import '../styles/resume.css';
 
 function Resume() {
     return (
@@ -9,7 +9,7 @@ function Resume() {
             <a
                 className="resume-button-position" 
                 href={resume}
-                download="Sutton_Portfolio.pdf" 
+                target="_blank" 
             >
             <Buttons 
                 onClick={() => console.log('clicked')} 
@@ -18,7 +18,6 @@ function Resume() {
                 buttonSize="btn--medium"
             />
             </a>
-            <div id="transition"></div>
         </div>
         
     )

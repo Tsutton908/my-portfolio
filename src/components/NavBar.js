@@ -1,7 +1,9 @@
 import React from 'react';
 import { useState } from 'react';
 import { Link } from 'react-scroll';
-import './NavBar.css';
+import { GoMarkGithub } from "react-icons/go";
+
+import '../styles/NavBar.css';
 
 function NavBar() {
     const [navbar, setNavBar] = useState(false);
@@ -22,6 +24,8 @@ function NavBar() {
         <div className={navbar ? 'main-header active' : 'main-header'}>
             <nav className="main-nav">
                 <ul className="main-nav__items">
+                    <div className="main-nav__left">
+
                     <Link
                         activeClass="active"
                         to="main"
@@ -37,7 +41,23 @@ function NavBar() {
                         smooth={true}
                         offset={-50}
                         duration={500}
-                    >About Me</Link>
+                    >About</Link>
+                    <Link
+                        activeClass="active"
+                        to="certifications"
+                        spy={true}
+                        smooth={true}
+                        offset={-350}
+                        duration={500}
+                    >Certifications</Link>
+                    <Link
+                        activeClass="active"
+                        to="skills"
+                        spy={true}
+                        smooth={true}
+                        offset={-50}
+                        duration={500}
+                    >Skills</Link>
                     <Link
                         activeClass="active"
                         to="portfolio"
@@ -45,15 +65,7 @@ function NavBar() {
                         smooth={true}
                         offset={-50}
                         duration={500}
-                    >Portfolio</Link>
-                    <Link
-                        activeClass="active"
-                        to="resume"
-                        spy={true}
-                        smooth={true}
-                        offset={-50}
-                        duration={500}
-                    >Resume</Link>
+                    >Projects</Link>
                     <Link
                         activeClass="active"
                         to="contact"
@@ -62,6 +74,17 @@ function NavBar() {
                         offset={-50}
                         duration={500}
                     >Contact</Link>
+                    </div>
+                    <div className="main-nav__right">
+                    <Link
+                        activeClass="active"
+                        to="resume"
+                        spy={true}
+                        smooth={true}
+                        offset={-90}
+                        duration={500}
+                    >Resume</Link>
+                    </div>
                 </ul>
         </nav>
         </div>
